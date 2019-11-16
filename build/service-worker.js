@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chippleh1392/face-recognition-ai/precache-manifest.8dc6ad9312600ad1a30d044476538acf.js"
+  "/chippleh1392/face-recognition-ai/precache-manifest.71ee6fa569df571b3376a1c8b2bb7a37.js"
 );
 
 self.addEventListener('message', (event) => {
