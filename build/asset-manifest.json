@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/chippleh1392/face-recognition-ai/static/css/main.38152b1c.chunk.css",
-    "main.js": "/chippleh1392/face-recognition-ai/static/js/main.aac71068.chunk.js",
-    "main.js.map": "/chippleh1392/face-recognition-ai/static/js/main.aac71068.chunk.js.map",
-    "runtime-main.js": "/chippleh1392/face-recognition-ai/static/js/runtime-main.0ced0d03.js",
-    "runtime-main.js.map": "/chippleh1392/face-recognition-ai/static/js/runtime-main.0ced0d03.js.map",
-    "static/css/2.eb45ad44.chunk.css": "/chippleh1392/face-recognition-ai/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.ac22b4b3.chunk.js": "/chippleh1392/face-recognition-ai/static/js/2.ac22b4b3.chunk.js",
-    "static/js/2.ac22b4b3.chunk.js.map": "/chippleh1392/face-recognition-ai/static/js/2.ac22b4b3.chunk.js.map",
-    "index.html": "/chippleh1392/face-recognition-ai/index.html",
-    "precache-manifest.71ee6fa569df571b3376a1c8b2bb7a37.js": "/chippleh1392/face-recognition-ai/precache-manifest.71ee6fa569df571b3376a1c8b2bb7a37.js",
-    "service-worker.js": "/chippleh1392/face-recognition-ai/service-worker.js",
-    "static/css/2.eb45ad44.chunk.css.map": "/chippleh1392/face-recognition-ai/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.38152b1c.chunk.css.map": "/chippleh1392/face-recognition-ai/static/css/main.38152b1c.chunk.css.map"
+    "main.css": "./static/css/main.38152b1c.chunk.css",
+    "main.js": "./static/js/main.48c4c9ec.chunk.js",
+    "main.js.map": "./static/js/main.48c4c9ec.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.7dc9b709.js",
+    "runtime-main.js.map": "./static/js/runtime-main.7dc9b709.js.map",
+    "static/css/2.eb45ad44.chunk.css": "./static/css/2.eb45ad44.chunk.css",
+    "static/js/2.8fdffbd6.chunk.js": "./static/js/2.8fdffbd6.chunk.js",
+    "static/js/2.8fdffbd6.chunk.js.map": "./static/js/2.8fdffbd6.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.54af0c4ac5f68856d78d968ba4416952.js": "./precache-manifest.54af0c4ac5f68856d78d968ba4416952.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "./static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.38152b1c.chunk.css.map": "./static/css/main.38152b1c.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ced0d03.js",
+    "static/js/runtime-main.7dc9b709.js",
     "static/css/2.eb45ad44.chunk.css",
-    "static/js/2.ac22b4b3.chunk.js",
+    "static/js/2.8fdffbd6.chunk.js",
     "static/css/main.38152b1c.chunk.css",
-    "static/js/main.aac71068.chunk.js"
+    "static/js/main.48c4c9ec.chunk.js"
   ]
 }
