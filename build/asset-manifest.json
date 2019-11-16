@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/chippleh1392/face-recognition-ai/static/css/main.38152b1c.chunk.css",
+    "main.js": "/chippleh1392/face-recognition-ai/static/js/main.7706cb76.chunk.js",
+    "main.js.map": "/chippleh1392/face-recognition-ai/static/js/main.7706cb76.chunk.js.map",
+    "runtime-main.js": "/chippleh1392/face-recognition-ai/static/js/runtime-main.0ced0d03.js",
+    "runtime-main.js.map": "/chippleh1392/face-recognition-ai/static/js/runtime-main.0ced0d03.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/chippleh1392/face-recognition-ai/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.ac22b4b3.chunk.js": "/chippleh1392/face-recognition-ai/static/js/2.ac22b4b3.chunk.js",
+    "static/js/2.ac22b4b3.chunk.js.map": "/chippleh1392/face-recognition-ai/static/js/2.ac22b4b3.chunk.js.map",
+    "index.html": "/chippleh1392/face-recognition-ai/index.html",
+    "precache-manifest.8dc6ad9312600ad1a30d044476538acf.js": "/chippleh1392/face-recognition-ai/precache-manifest.8dc6ad9312600ad1a30d044476538acf.js",
+    "service-worker.js": "/chippleh1392/face-recognition-ai/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/chippleh1392/face-recognition-ai/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.38152b1c.chunk.css.map": "/chippleh1392/face-recognition-ai/static/css/main.38152b1c.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ced0d03.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.ac22b4b3.chunk.js",
+    "static/css/main.38152b1c.chunk.css",
+    "static/js/main.7706cb76.chunk.js"
+  ]
+}
