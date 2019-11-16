@@ -1,0 +1,43 @@
+{
+  "name": "face-recognition-ai",
+  "version": "1.0.0",
+  "dependencies": {
+    "clarifai": "^2.9.1",
+    "helmet": "^3.21.1",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-helmet": "^5.2.1",
+    "react-particles-js": "^2.7.0",
+    "react-scripts": "^3.2.0",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chippleh1392/face-recognition-ai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chippleh1392/face-recognition-ai/issues"
+  },
+  "homepage": "https://github.com/chippleh1392/face-recognition-ai#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
