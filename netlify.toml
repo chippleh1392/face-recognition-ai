@@ -1,4 +1,0 @@
-[build]
-  command = "npm run build"
-  publish="face-recognition-ai/build"
-  base = "face-recognition-ai"
