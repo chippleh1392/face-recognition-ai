@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/chippleh1392/face-recognition-ai/issues"
   },
-  "homepage": "https://github.com/chippleh1392/face-recognition-ai#readme",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
