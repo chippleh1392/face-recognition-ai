@@ -57,7 +57,7 @@ class Register extends React.Component {
         <div className="container-login100">
           <div className="wrap-login100">
             <div className="login100-form validate-form">
-              <span className="login100-form-title p-b-26">New User?</span>
+              <span className="login100-form-title p-b-70">New User?</span>
 
               <div className="wrap-input100 validate-input">
                 <input
@@ -66,31 +66,24 @@ class Register extends React.Component {
                   name="name"
                   onChange={this.onNameChange}
                   onKeyPress={this.handleKeyPress}
+                  placeholder="Name"
                 />
-                <span className="focus-input100" data-placeholder="Name"></span>
+                <span className="focus-input100"></span>
               </div>
 
-              <div
-                className="wrap-input100 validate-input"
-                data-validate="Valid email is: a@b.c"
-              >
+              <div className="wrap-input100 validate-input">
                 <input
                   className="input100"
                   type="text"
                   name="email"
                   onChange={this.onEmailChange}
                   onKeyPress={this.handleKeyPress}
+                  placeholder="Email"
                 />
-                <span
-                  className="focus-input100"
-                  data-placeholder="Email"
-                ></span>
+                <span className="focus-input100"></span>
               </div>
 
-              <div
-                className="wrap-input100 validate-input"
-                data-validate="Enter password"
-              >
+              <div className="wrap-input100 validate-input">
                 <span className="btn-show-pass">
                   <i className="zmdi zmdi-eye"></i>
                 </span>
@@ -100,11 +93,9 @@ class Register extends React.Component {
                   name="pass"
                   onChange={this.onPasswordChange}
                   onKeyPress={this.handleKeyPress}
+                  placeholder="Password"
                 />
-                <span
-                  className="focus-input100"
-                  data-placeholder="Password"
-                ></span>
+                <span className="focus-input100"></span>
               </div>
 
               <div className="container-login100-form-btn">
