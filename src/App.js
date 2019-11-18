@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { Helmet } from "react-helmet";
-import Particles from "react-particles-js";
 import Clarifai from "clarifai";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
 import Navigation from "./components/Navigation/Navigation";
@@ -8,24 +6,11 @@ import Signin from "./components/Signin/Signin";
 import Register from "./components/Register/Register";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import "./App.css";
-import myParameters from "./particlesjs-config.json";
 
-//You must add your own API key here from Clarifai.
+// You must add your own API key here from Clarifai.
 const app = new Clarifai.App({
   apiKey: "3dba087793aa45afa2bf7740b930b086"
 });
-
-// const particlesOptions = {
-//   particles: {
-//     number: {
-//       value: 30,
-//       density: {
-//         enable: true,
-//         value_area: 800
-//       }
-//     }
-//   }
-// };
 
 const initialState = {
   input: "",
@@ -119,21 +104,12 @@ class App extends Component {
     const { isSignedIn, imageUrl, route, boxes } = this.state;
     return (
       <div className="App">
-        <Particles className="particles" params={myParameters} />
-        <div className="head">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>Facial Recognition</title>
-          </Helmet>
-        </div>
-        {/* <Particles className="particles" params={particlesOptions} /> */}
         <Navigation
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}
         />
         {route === "home" ? (
           <div>
-            {/* <Logo /> */}
             <ImageLinkForm
               onInputChange={this.onInputChange}
               onButtonSubmit={this.onButtonSubmit}

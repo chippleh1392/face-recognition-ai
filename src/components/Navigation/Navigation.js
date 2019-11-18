@@ -14,13 +14,28 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
     );
   } else {
     return (
-      <nav className="nav">
-        <ul className="nav-links">
-          <li className="item" onClick={() => onRouteChange("signin")}>
-            <a>Sign In</a>
+      <nav className="navbar">
+        <a href="#" className="logo">
+          logo
+        </a>
+        <ul className="main-nav">
+          <li>
+            <a
+              href="#"
+              className="nav-links"
+              onClick={() => onRouteChange("signin")}
+            >
+              Login
+            </a>
           </li>
-          <li className="./image" onClick={() => onRouteChange("register")}>
-            <a>Register</a>
+          <li>
+            <a
+              href="#"
+              className="nav-links"
+              onClick={() => onRouteChange("register")}
+            >
+              Sign Up
+            </a>
           </li>
         </ul>
       </nav>

@@ -3,8 +3,8 @@ import "./FaceRecognition.css";
 
 const FaceRecognition = ({ imageUrl, boxes }) => {
   return (
-    <div className="center ma">
-      <div className="absolute mt2">
+    <div className="">
+      <div className="">
         <img id="inputimage" alt="" src={imageUrl} width="500px" heigh="auto" />
         {boxes.map(box => {
           return (

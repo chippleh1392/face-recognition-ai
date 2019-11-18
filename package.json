@@ -6,12 +6,16 @@
     "helmet": "^3.21.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
+    "react-fontawesome": "^1.7.1",
     "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
     "react-particles-js": "^2.7.0",
     "react-scripts": "^3.2.0",
     "tachyons": "^4.11.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

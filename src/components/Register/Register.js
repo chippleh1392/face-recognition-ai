@@ -1,4 +1,5 @@
 import React from "react";
+import "../Signin/Signin.css";
 
 class Register extends React.Component {
   constructor(props) {
@@ -43,64 +44,96 @@ class Register extends React.Component {
       });
   };
 
+  handleKeyPress = e => {
+    if (e.key === "Enter") {
+      this.onSubmitSignIn();
+    }
+  };
+
   render() {
+    const { onRouteChange } = this.props;
     return (
-      <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
-        <main className="pa4 black-80">
-          <div className="measure">
-            <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 white ph0 mh0">Register</legend>
-              <div className="mt3">
-                <label className="db fw6 white lh-copy f6" htmlFor="name">
-                  Name
-                </label>
+      <div className="limiter">
+        <div className="container-login100">
+          <div className="wrap-login100">
+            <div className="login100-form validate-form">
+              <span className="login100-form-title p-b-26">New User?</span>
+
+              <div className="wrap-input100 validate-input">
                 <input
-                  className="pa2 input-reset white ba bg-transparent hover-bg-black hover-white w-100"
+                  className="input100"
                   type="text"
                   name="name"
-                  id="name"
                   onChange={this.onNameChange}
+                  onKeyPress={this.handleKeyPress}
                 />
+                <span className="focus-input100" data-placeholder="Name"></span>
               </div>
-              <div className="mt3">
-                <label
-                  className="db fw6 white lh-copy f6"
-                  htmlFor="email-address"
-                >
-                  Email
-                </label>
+
+              <div
+                className="wrap-input100 validate-input"
+                data-validate="Valid email is: a@b.c"
+              >
                 <input
-                  className="pa2 input-reset ba bg-transparent white hover-bg-black hover-white w-100"
-                  type="email"
-                  name="email-address"
-                  id="email-address"
+                  className="input100"
+                  type="text"
+                  name="email"
                   onChange={this.onEmailChange}
+                  onKeyPress={this.handleKeyPress}
                 />
+                <span
+                  className="focus-input100"
+                  data-placeholder="Email"
+                ></span>
               </div>
-              <div className="mv3">
-                <label className="db fw6 white lh-copy f6" htmlFor="password">
-                  Password
-                </label>
+
+              <div
+                className="wrap-input100 validate-input"
+                data-validate="Enter password"
+              >
+                <span className="btn-show-pass">
+                  <i className="zmdi zmdi-eye"></i>
+                </span>
                 <input
-                  className="b pa2 input-reset white ba bg-transparent hover-bg-black hover-white w-100"
+                  className="input100"
                   type="password"
-                  name="password"
-                  id="password"
+                  name="pass"
                   onChange={this.onPasswordChange}
+                  onKeyPress={this.handleKeyPress}
                 />
+                <span
+                  className="focus-input100"
+                  data-placeholder="Password"
+                ></span>
               </div>
-            </fieldset>
-            <div className="">
-              <input
-                onClick={this.onSubmitSignIn}
-                className="b ph3 pv2 input-reset white ba b--black bg-transparent grow pointer f6 dib"
-                type="submit"
-                value="Register"
-              />
+
+              <div className="container-login100-form-btn">
+                <div className="wrap-login100-form-btn">
+                  <div className="login100-form-bgbtn"></div>
+                  <button
+                    className="login100-form-btn"
+                    onClick={this.onSubmitSignIn}
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+
+              <div className="text-center p-t-115">
+                <span className="txt1">Already have an account? </span>
+
+                <a
+                  className="txt2"
+                  href="#"
+                  onClick={() => onRouteChange("signin")}
+                >
+                  Login
+                </a>
+              </div>
             </div>
           </div>
-        </main>
-      </article>
+        </div>
+      </div>
     );
   }
 }

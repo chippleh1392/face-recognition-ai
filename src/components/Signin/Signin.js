@@ -1,4 +1,6 @@
 import React from "react";
+import "./Signin.css";
+import "../../util.css";
 
 class Signin extends React.Component {
   constructor(props) {
@@ -44,58 +46,84 @@ class Signin extends React.Component {
   render() {
     const { onRouteChange } = this.props;
     return (
-      <article className="br3 ba b--white-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
-        <main className="pa4 white-80">
-          <div className="measure">
-            <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 ph0 mh0">Sign In</legend>
-              <div className="mt3">
-                <label className="db fw6 lh-copy f6" htmlFor="email-address">
-                  Email
-                </label>
+      <div className="limiter">
+        <div className="container-login100">
+          <div className="wrap-login100">
+            <div className="login100-form validate-form">
+              <span className="login100-form-title p-b-26">Welcome</span>
+
+              <div
+                className="wrap-input100 validate-input"
+                data-validate="Valid email is: a@b.c"
+              >
                 <input
-                  className="pa2 white input-reset ba bg-transparent hover-bg-black hover-white w-100"
-                  type="email"
-                  name="email-address"
-                  id="email-address"
+                  className="input100"
+                  type="text"
+                  name="email"
                   onChange={this.onEmailChange}
                   onKeyPress={this.handleKeyPress}
                 />
+                <span
+                  className="focus-input100"
+                  data-placeholder="Email"
+                ></span>
               </div>
-              <div className="mv3">
-                <label className="db fw6 lh-copy f6" htmlFor="password">
-                  Password
-                </label>
+
+              <div
+                className="wrap-input100 validate-input"
+                data-validate="Enter password"
+              >
+                <span className="btn-show-pass">
+                  <i className="zmdi zmdi-eye"></i>
+                </span>
                 <input
-                  className="b pa2 white input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="input100"
                   type="password"
-                  name="password"
-                  id="password"
+                  name="pass"
                   onChange={this.onPasswordChange}
                   onKeyPress={this.handleKeyPress}
                 />
+                <span
+                  className="focus-input100"
+                  data-placeholder="Password"
+                ></span>
               </div>
-            </fieldset>
-            <div className="">
-              <input
-                onClick={this.onSubmitSignIn}
-                className="b ph3 pv2 white input-reset ba b--white bg-transparent grow
-                pointer f6 dib"
-                type="submit"
-                value="Sign In"
-              />
-            </div>
-            <div className="lh-copy mt3">
-              <p
-                onClick={() => onRouteChange("register")}
-                className="f6 link dim white db pointer"
-              >
-                Register
-              </p>
+
+              <div className="container-login100-form-btn">
+                <div className="wrap-login100-form-btn">
+                  <div className="login100-form-bgbtn"></div>
+                  <button
+                    className="login100-form-btn"
+                    onClick={this.onSubmitSignIn}
+                  >
+                    Login
+                  </button>
+                </div>
+              </div>
+
+              <div className="text-center p-t-115">
+                <span className="txt1">Forgot your password? </span>
+
+                <a className="txt2" href="#">
+                  Reset Password
+                </a>
+              </div>
+
+              <div className="text-center">
+                <span className="txt1">Don’t have an account? </span>
+
+                <a
+                  className="txt2"
+                  href="#"
+                  onClick={() => onRouteChange("register")}
+                >
+                  Sign Up
+                </a>
+              </div>
             </div>
           </div>
-        </main>
-      </article>
+        </div>
+      </div>
     );
   }
 }
