@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import logo from "./logo.png";
 
 const Navigation = ({ onRouteChange, isSignedIn }) => {
   if (isSignedIn) {
@@ -16,7 +17,7 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
     return (
       <nav className="navbar">
         <a href="#" className="logo">
-          logo
+          <img src={logo} />
         </a>
         <ul className="main-nav">
           <li>
