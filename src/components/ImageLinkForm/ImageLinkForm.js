@@ -36,8 +36,8 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit, imageUrl, boxes }) => {
               </div>
             </div>
           </div>
-          <div className="center ma relative image-container">
-            <div className="absolute mt2">
+          <div className="center ma relative">
+            <div className="mt2">
               <img
                 id="inputimage"
                 alt=""

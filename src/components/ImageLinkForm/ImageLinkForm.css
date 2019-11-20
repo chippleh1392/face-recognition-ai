@@ -6,9 +6,3 @@
   justify-content: center;
   cursor: pointer;
 }
-
-.image-container {
-  /* display: flex;
-  display: column; */
-  position: relative;
-}
