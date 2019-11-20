@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.b7dd9d78.chunk.css",
+    "main.css": "./static/css/main.01d30f3c.chunk.css",
     "main.js": "./static/js/main.ac02223e.chunk.js",
     "main.js.map": "./static/js/main.ac02223e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7dc9b709.js",
@@ -9,17 +9,17 @@
     "static/js/2.1c1e6e04.chunk.js": "./static/js/2.1c1e6e04.chunk.js",
     "static/js/2.1c1e6e04.chunk.js.map": "./static/js/2.1c1e6e04.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.e643394b1bd1e49a3372db46e405991b.js": "./precache-manifest.e643394b1bd1e49a3372db46e405991b.js",
+    "precache-manifest.467fcfd35bf17f642b530d11b023a30d.js": "./precache-manifest.467fcfd35bf17f642b530d11b023a30d.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "./static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.b7dd9d78.chunk.css.map": "./static/css/main.b7dd9d78.chunk.css.map",
+    "static/css/main.01d30f3c.chunk.css.map": "./static/css/main.01d30f3c.chunk.css.map",
     "static/media/Signin.css": "./static/media/Poppins-SemiBold.e63b93df.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.7dc9b709.js",
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.1c1e6e04.chunk.js",
-    "static/css/main.b7dd9d78.chunk.css",
+    "static/css/main.01d30f3c.chunk.css",
     "static/js/main.ac02223e.chunk.js"
   ]
 }
