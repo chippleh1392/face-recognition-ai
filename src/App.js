@@ -76,6 +76,7 @@ class App extends Component {
     const image = document.getElementById("inputimage");
     const width = Number(image.width);
     const height = Number(image.height);
+
     return data.outputs[0].data.regions.map(face => {
       const clarifaiFace = face.region_info.bounding_box;
       return {
@@ -113,8 +114,10 @@ class App extends Component {
             <ImageLinkForm
               onInputChange={this.onInputChange}
               onButtonSubmit={this.onButtonSubmit}
+              boxes={boxes}
+              imageUrl={imageUrl}
             />
-            <FaceRecognition boxes={boxes} imageUrl={imageUrl} />
+            {/* <FaceRecognition /> */}
           </div>
         ) : route === "signin" ? (
           <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange} />

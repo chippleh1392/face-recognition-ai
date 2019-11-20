@@ -175,13 +175,21 @@ iframe {
 .login100-form-title {
   display: block;
   font-family: Poppins-Bold;
-  font-size: 40px;
+  font-size: 60px;
   color: #333333;
   line-height: 1.2;
   text-align: center;
 }
-.login100-form-title i {
-  font-size: 60px;
+
+.login200-form-title {
+  display: block;
+  font-family: Poppins-Bold;
+  font-size: 4em;
+  background: linear-gradient(to right, #21d4fd, #b721ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .wrong-password {
@@ -195,12 +203,30 @@ iframe {
   border-radius: 10px;
   overflow: hidden;
   padding: 77px 55px 33px 55px;
+  height: 120vh;
+  margin-top: 0px;
+  text-align: center;
 
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container-image-form100 {
+  align-items: initial;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  background: #f2f2f2;
 }
 
 /*------------------------------------------------------------------
